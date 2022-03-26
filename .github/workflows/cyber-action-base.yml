@@ -6,6 +6,8 @@ on:
   workflow_call:
     inputs:
       echo_str:
+        description: 'Valor para printar no echo'
+        default: 'default'
         required: true
         type: string
 
@@ -17,7 +19,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Run a one-line script
-        run: echo "${{ github.event.inputs.echo_str }}"
+        run: echo "${{ inputs.echo_str }}"
 
       - name: Run a multi-line script
         run: |
