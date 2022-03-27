@@ -1,4 +1,4 @@
-name: Reusable Cyber Action
+name: Workflow 3 - Generic - Testing variables
 
 on:
   workflow_call:
