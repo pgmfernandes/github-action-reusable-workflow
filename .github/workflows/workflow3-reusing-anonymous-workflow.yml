@@ -6,6 +6,6 @@ on:
 
 jobs:
   execute-cyber:
-    uses: pgmfernandes/github-action-reusable-workflow/.github/workflows/cyber-action-base.yml@main
+    uses: pgmfernandes/github-action-reusable-workflow/.github/workflows/workflow3-generic.yml@main
     with:
       echo_str: MY_CYBER_PARAMETER
