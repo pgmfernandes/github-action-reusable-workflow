@@ -1,5 +1,5 @@
 
-name: Single Workflow With Manual Inputs To Echo
+name: Workflow 2 - With Manual Inputs To Echo
 
 on: 
   workflow_dispatch:
