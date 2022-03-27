@@ -8,4 +8,4 @@ jobs:
   execute-snyk-java:
     uses: pgmfernandes/github-action-reusable-workflow/.github/workflows/snyk-generic-workflow.yml@main
     with:
-      java_version: 11
+      java_version: 14
