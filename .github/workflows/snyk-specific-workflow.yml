@@ -5,11 +5,11 @@ on:
       branches: main
 
 jobs:
-  execute-snyk-java-14:
-    uses: pgmfernandes/github-action-reusable-workflow/.github/workflows/snyk-generic-workflow.yml@main
+  execute-workflow-to-be-skipped-param-java-14:
+    uses: pgmfernandes/github-action-reusable-workflow/.github/workflows/workflow-1-to-be-reusable.yml@main
     with:
       java_version: 14
-  execute-snyk-java-11:
-    uses: pgmfernandes/github-action-reusable-workflow/.github/workflows/snyk-generic-workflow.yml@main
+  execute-workflow-param-java-11:
+    uses: pgmfernandes/github-action-reusable-workflow/.github/workflows/workflow-1-to-be-reusable.yml@main
     with:
       java_version: 11
