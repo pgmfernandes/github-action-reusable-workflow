@@ -1,17 +1,17 @@
 
 name: Single Action With Inputs To Echo
 
-on:
-  push:
+on: 
+  workflow_dispatch:
     inputs:
       echo_str:
-        description: 'Valor para printar no echo'
+        description: "Valor para printar no echo"
         default: 'default'
         required: true
         type: string
-
+  
 jobs:
-  build:
+  job_execute_echo:
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
