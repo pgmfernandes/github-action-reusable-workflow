@@ -1,5 +1,5 @@
 
-name: Single Action With Inputs To Echo
+name: Single Workflow With Manual Inputs To Echo
 
 on: 
   workflow_dispatch:
