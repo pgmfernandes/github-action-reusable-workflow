@@ -1,4 +1,4 @@
-name: Snyk Generic Workflow
+name: Workflow 1 - Generic
 
 on:
   workflow_call:
