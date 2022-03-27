@@ -1,0 +1,11 @@
+name: Reusing workflow
+
+on:
+  push:
+      branches: main
+
+jobs:
+  execute-cyber:
+    uses: pgmfernandes/github-action-reusable-workflow/.github/workflows/snyk-generic-workflow.yml@main
+    with:
+      java_version: 11
