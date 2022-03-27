@@ -1,4 +1,4 @@
-name: Reusing workflow
+name: Workflow 3 - Using other workflow
 
 on:
   push:
