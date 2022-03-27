@@ -6,10 +6,10 @@ on:
 
 jobs:
   execute-workflow-to-be-skipped-param-java-14:
-    uses: pgmfernandes/github-action-reusable-workflow/.github/workflows/workflow-1-to-be-reusable.yml@main
+    uses: pgmfernandes/github-action-reusable-workflow/.github/workflows/workflow1-to-be-reusable.yml@main
     with:
       java_version: 14
   execute-workflow-param-java-11:
-    uses: pgmfernandes/github-action-reusable-workflow/.github/workflows/workflow-1-to-be-reusable.yml@main
+    uses: pgmfernandes/github-action-reusable-workflow/.github/workflows/workflow1-to-be-reusable.yml@main
     with:
       java_version: 11
