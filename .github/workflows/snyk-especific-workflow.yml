@@ -1,4 +1,4 @@
-name: Reusing workflow
+name: Snyk Specific Workflow
 
 on:
   push:
