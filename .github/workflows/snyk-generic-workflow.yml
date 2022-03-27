@@ -1,0 +1,18 @@
+name: Snyk Generic Workflow
+
+on:
+  workflow_call:
+    inputs:
+      java_version:
+        description: 'Java Version'
+        default: 17
+        required: false
+        type: string
+
+jobs:
+  run_echo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run a one-line script
+        run: echo "${{ inputs.java_version }}"
