@@ -5,7 +5,7 @@ on:
       branches: main
 
 jobs:
-  execute-cyber:
+  execute-snyk-java:
     uses: pgmfernandes/github-action-reusable-workflow/.github/workflows/snyk-generic-workflow.yml@main
     with:
       java_version: 11
